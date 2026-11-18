@@ -25,7 +25,7 @@ var strengths = [
 ];
 
 // Vercel API (旧GAS Web App から移行)
-var API_BASE = 'https://reiwa-form-api.vercel.app';
+var API_BASE = 'https://reiwa-form-api-box.vercel.app';
 var FORM_URL = API_BASE + '/api/form';
 // v3: 面談日時選択なし → /api/slots は不要だが、後方互換のため残す
 var SLOTS_URL = API_BASE + '/api/slots';
