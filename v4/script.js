@@ -26,7 +26,7 @@ var strengths = [
 ];
 
 // Vercel API (旧GAS Web App から移行)
-var API_BASE = 'https://reiwa-form-api.vercel.app';
+var API_BASE = 'https://reiwa-form-api-box.vercel.app';
 var FORM_URL = API_BASE + '/api/form';
 var SLOTS_URL = API_BASE + '/api/slots';
 // 後方互換用 (一部の form.action 等で使用)
